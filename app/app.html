@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="web3.min.js"></script>
+    <link rel="stylesheet" href="app.css" />
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>区块链学院 Dapp
+    </title>
+</head>
+
+<body>
+<h2>江西软件职业技术大学 区块链学院</h2>
+    ERC721 Address: <span class="ErcAddress"></span><button id="Btn_getErc721">getErc721</button>
+    <button class="enableEthereumButton">Enable Ethereum</button>
+    <h5>Account: <span class="showAccount"></span></h5>
+    <hr />
+    CreatItem:<img id="load_ci_img" src="./loading-upload.gif" hidden /><span class="txt_CreatItem"></span>
+    <div />
+    prodid:<input id="prodid" value="" /><button id="Btn_CreatItem">CreatItem</button>
+    <hr />
+    我的Item数量<span id="MyBalance"></span>
+    <div id="box"></div>
+    <hr />
+    getTotalSupply:<span class="txt_getTotalSupply"></span><button id="Btn_getTotalSupply"  size="50">getTotalSupply</button>
+    
+   
+   
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
